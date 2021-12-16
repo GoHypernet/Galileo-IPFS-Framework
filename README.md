@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="https://cryptologos.cc/logos/avalanche-avax-logo.png?v=014" width="100">
+  <img src="https://protocol.ai/images/ipfsHex.png" width="100">
 </p>
 
 # Avalanche
 
 ## Overview
-- **Industry**: Cryptocurrency, Avalanche
+- **Industry**: Distributed Storage, IPFS
 
 - **Target Conatiner OS**: Linux
 
 - **Source Code**: open source
 
-- **Website**: https://www.avalabs.org/;
+- **Website**: ipfs.io;
 
-- **Github**: https://github.com/ava-labs
+- **Github**: https://github.com/ipfs/ipfs
 
 ## Notes
-This is a containerization of the Avalanche Protocol. 
+This is a containerization of the IPFS Go node. 
 
 ## Building
 
@@ -25,7 +25,7 @@ This container runtime is targeted for linux machines.
 To build run:
 
 ```
-docker build -t avax .
+docker build -t ipfs .
 ```
 
 ## Running
