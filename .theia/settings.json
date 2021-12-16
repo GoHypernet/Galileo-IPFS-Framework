@@ -1,0 +1,59 @@
+{
+    "galileo.logo": "https://protocol.ai/images/ipfsHex.png",
+    "galileo.title": "IPFS",
+    "galileo.description": "IPFS powers the Distributed Web",
+    "galileo.widget_label": "IPFS Portal",
+    "galileo.social_links": [
+        {
+        "icon": {
+            "prefix": "fab",
+            "name": "twitter"
+        },
+        "href": "https://twitter.com/IPFS",
+        "priority": 0
+        },
+        {
+        "icon": {
+            "prefix": "fab",
+            "name": "github"
+        },
+        "href": "https://github.com/ipfs/ipfs",
+        "priority": 1
+        }
+    ],
+    "galileo.ui_components": [
+        {
+        "type": "custom",
+        "title": "IPFS Resources",
+        "content": [
+            {
+            "title": "🌎 IPFS Home Page",
+            "href": "https://ipfs.io/",
+            "priority": 0
+            },
+            {
+            "title": "📙 Developer Resources",
+            "href": "https://docs.ipfs.io/",
+            "priority": 1
+            },
+            {
+            "title": "🛸 IPFS Node Guide",
+            "href": "https://docs.ipfs.io/how-to/configure-node/",
+            "priority": 2
+            }
+        ]
+        },
+		{
+        "type": "custom",
+        "title": "Your API Endpoints",
+        "content": [
+			{
+			"title": "🔱 IPFS Node Interface",
+			"href": "/webui/",
+			"priority": 0
+			}
+        ]
+        }
+    ],
+    "workbench.colorTheme": "Galileo Light"
+}
