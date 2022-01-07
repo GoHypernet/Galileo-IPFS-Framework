@@ -6,8 +6,8 @@ FROM hypernetlabs/galileo-ide:linux AS galileo-ide
 
 WORKDIR /
 # get the IPFS Binaries
-ADD --chown=galileo https://dist.ipfs.io/go-ipfs/v0.10.0/go-ipfs_v0.10.0_linux-amd64.tar.gz .
-RUN tar -xvf go-ipfs_v0.10.0_linux-amd64.tar.gz
+ADD --chown=galileo https://dist.ipfs.io/go-ipfs/v0.11.0/go-ipfs_v0.11.0_linux-amd64.tar.gz .
+RUN tar -xvf go-ipfs_v0.11.0_linux-amd64.tar.gz
 
 # Final build stage
 FROM ubuntu:18.04 

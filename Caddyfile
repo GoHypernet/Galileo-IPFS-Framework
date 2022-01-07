@@ -17,7 +17,12 @@
     }
 	
     route /ipfs* {
-	    jwt
+        jwt
+        reverse_proxy http://127.0.0.1:5001
+    }
+	
+    route /api* {
+        jwt
         reverse_proxy http://127.0.0.1:5001
     }
 	

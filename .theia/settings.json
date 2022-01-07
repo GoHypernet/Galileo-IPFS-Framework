@@ -53,9 +53,19 @@
 			"priority": 0
 			},
 			{
+			"title": "🔱 IPFS API",
+			"href": "/ipfs/",
+			"priority": 1
+			},
+			{
 			"title": "🚪 IPFS Gateway",
 			"href": "/gateway/",
-			"priority": 1
+			"priority": 2
+			},
+			{
+			"title": "🐜 IPFS Swarm",
+			"href": "/swarm/",
+			"priority": 3
 			}
         ]
         }
