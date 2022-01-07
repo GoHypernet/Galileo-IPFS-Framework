@@ -1,6 +1,6 @@
 :8888 {
     log
-	redir / /ui/
+    redir / /ui/
     redir /auth/portal /ui/
 	
     import /etc/gatekeeper/auth.txt
@@ -11,17 +11,21 @@
         reverse_proxy http://localhost:5572
     }
 	
-	route /webui* {
+    route /webui* {
+        jwt
+        reverse_proxy http://127.0.0.1:5001
+    }
+	
+    route /ipfs* {
 	    jwt
         reverse_proxy http://127.0.0.1:5001
     }
 	
-	route /ipfs* {
-	    jwt
-        reverse_proxy http://127.0.0.1:5001
-    }
-	
-	handle_path /gateway/* {
+    handle_path /gateway/* {
         reverse_proxy http://127.0.0.1:8080
+    }
+	
+    route /swarm* {
+        reverse_proxy http://127.0.0.1:4001
     }
 }

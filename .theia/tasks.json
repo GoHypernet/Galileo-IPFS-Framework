@@ -1,36 +1,25 @@
 {
     "tasks": [
         {
-            "id": "start-avalanche",
-            "label": "Start Avalanche Node (Mainnet)",
-            "description": "Starts a node on the Avalanche main network.",
+            "id": "init-ipfs",
+            "label": "Initialize IPFS",
+            "description": "Creates cryptographics key pairs for the IPFS node.",
             "type": "shell",
-            "command": "tmux new -s avalanchgo /home/galileo/avalanchego || tmux a -t avalanchgo",
+            "command": "ipfs init",
 			"icon": {
                 "prefix": "fas",
                 "name": "home"
             }
         },
         {
-            "id": "start-avalanche-testnet",
-            "label": "Start Avalanche Node (Fuji Testnet)",
-            "description": "Starts a node on the Avalanche Fuji Test Network.",
+            "id": "start-ipfs",
+            "label": "Start IPFS Node ",
+            "description": "Starts an IPFS node in daemon mode.",
             "type": "shell",
-            "command": "tmux new -s avalanchgo /home/galileo/avalanchego --network-id=fuji || tmux a -t avalanchgo",
+            "command": "tmux new -s ipfs ipfs daemon || tmux a -t ipfs",
 			"icon": {
                 "prefix": "fas",
                 "name": "vial"
-            }
-        },
-		{
-            "id": "check-bootstrap",
-            "label": "Bootstrap Status",
-            "description": "Checks to see if you're node is fully bootstrapped.",
-            "type": "shell",
-            "command": "bash /home/galileo/bootstrapping.sh",
-			"icon": {
-                "prefix": "fab",
-                "name": "bootstrap"
             }
         }
     ]

@@ -76,10 +76,10 @@ ENV USE_LOCAL_GIT true
 ENV GALILEO_RESULTS_DIR /home/galileo
 
 # set login credentials and write them to text file
-ENV USERNAME "a"
-ENV PASSWORD "a"
-RUN sed -i 's,"username": "","username": "'"$USERNAME"'",1' /etc/gatekeeper/users.json && \
-    sed -i 's,"hash": "","hash": "'"$(echo -n "$(echo $PASSWORD)" | bcrypt-cli -c 10 )"'",1' /etc/gatekeeper/users.json
+# ENV USERNAME "a"
+# ENV PASSWORD "a"
+# RUN sed -i 's,"username": "","username": "'"$USERNAME"'",1' /etc/gatekeeper/users.json && \
+    # sed -i 's,"hash": "","hash": "'"$(echo -n "$(echo $PASSWORD)" | bcrypt-cli -c 10 )"'",1' /etc/gatekeeper/users.json
 
 ENTRYPOINT ["sh", "-c", "supervisord"]
 

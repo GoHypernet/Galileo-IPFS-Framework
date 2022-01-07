@@ -51,6 +51,11 @@
 			"title": "🔱 IPFS Node Interface",
 			"href": "/webui/",
 			"priority": 0
+			},
+			{
+			"title": "🚪 IPFS Gateway",
+			"href": "/gateway/",
+			"priority": 1
 			}
         ]
         }
