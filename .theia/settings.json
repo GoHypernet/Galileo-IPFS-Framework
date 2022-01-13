@@ -42,12 +42,12 @@
             "priority": 2
             },
             {
-            "title": "🔎 Check CID retrievability.",
+            "title": "🔎 Check CID retrievability",
             "href": "https://ipfs-check.on.fleek.co/",
             "priority": 3
             },
             {
-            "title": "🕳 Hole punching via relays.",
+            "title": "🕳 Hole punching via relays",
             "href": "https://github.com/ipfs/go-ipfs/blob/master/docs/experimental-features.md#autorelay",
             "priority": 4
             }
