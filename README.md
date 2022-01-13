@@ -2,7 +2,7 @@
   <img src="https://protocol.ai/images/ipfsHex.png" width="100">
 </p>
 
-# Avalanche
+# IPFS
 
 ## Overview
 - **Industry**: Distributed Storage, IPFS
