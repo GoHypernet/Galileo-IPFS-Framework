@@ -42,7 +42,7 @@
             "priority": 2
             },
             {
-            "title": "🔎 Check the retrievability.",
+            "title": "🔎 Check CID retrievability.",
             "href": "https://ipfs-check.on.fleek.co/",
             "priority": 3
             },
