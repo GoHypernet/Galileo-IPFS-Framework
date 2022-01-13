@@ -40,6 +40,11 @@
             "title": "🛸 IPFS Node Guide",
             "href": "https://docs.ipfs.io/how-to/configure-node/",
             "priority": 2
+            },
+            {
+            "title": "🔎 Check the retrievability of CID from an IPFS peer.",
+            "href": "https://ipfs-check.on.fleek.co/",
+            "priority": 3
             }
         ]
         },

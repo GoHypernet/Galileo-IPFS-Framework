@@ -33,4 +33,12 @@
     route /swarm* {
         reverse_proxy http://127.0.0.1:4001
     }
+	
+	route /p2p* {
+        reverse_proxy http://127.0.0.1:4001
+    }
+	
+	route /udp* {
+        reverse_proxy http://127.0.0.1:4001
+    }
 }
